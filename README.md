@@ -36,7 +36,3 @@ $ scrapy crawl verbs -o verbs.json
 
 A listagem dos verbos será salva no arquivo *verbs.json* no diretório raiz do projeto.
 
-# Outros #
-
-- 
-
