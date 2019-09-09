@@ -19,17 +19,15 @@ Passos necessários para obter o projeto funcional:
     $ git clone https://github.com/bartier/conjugacaoScraper.git
     $ cd conjugacaoScraper/
     $ pipenv install
-	$ scrapy list
-	$ Se a saída do comando acima for 'verbs' você está com o projeto pronto.
+    $ pipenv shell
+    $ scrapy list
+    $ Se a saída do comando acima for 'verbs' você está com o projeto pronto.
 	
 	
 O projeto é executado dentro de um environment virtual, ou seja caso você precise acessá-lo novamente utilize:
 ```
 $ pipenv shell
 ```
-
-O terminal indica se está executnado em um environment virtual antes de `user@host /diretorio-aberto/`
-![image](https://user-images.githubusercontent.com/18057391/62845701-a1643900-bca0-11e9-92ca-1e8455c63dc6.png)
 
 # Spiders #
 
